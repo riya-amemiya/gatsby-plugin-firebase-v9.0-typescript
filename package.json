@@ -1,6 +1,6 @@
 {
     "name": "gatsby-plugin-firebase-v9.0-typescript",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "./build/index.js",
     "types": "./build/index.d.ts",
     "repository": "https://github.com/riya81/gatsby-plugin-firebase-v9.0-typescript.git",

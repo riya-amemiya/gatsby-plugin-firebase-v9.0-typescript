@@ -1,22 +1,22 @@
 # gatsby-plugin-firebase-v9.0-typescript
 
-Provides support for Firebase JS SDK 9
+Gatsby add Firebase JS SDK 9
 
-## 🛠 Installation
+## Installation
 
 use npm:
 
-```
-npm install firebase gatsby-plugin-firebase-v9.0
+```bash
+npm install firebase gatsby-plugin-firebase-v9.0 --save
 ```
 
 or use yarn:
 
-```
-yarn add firebase gatsby-plugin-firebase-v9.0
+```bash
+yarn add firebase gatsby-plugin-firebase-v9.0 -D
 ```
 
-## 📌 Usage
+## Usage
 
 ### Register gatsby plugin
 
@@ -26,9 +26,8 @@ In `gatsby-config.js`:
 module.exports = {
   plugins: [
     ...otherPlugins,
-
     {
-      resolve: 'gatsby-plugin-firebase-v9.0',
+      resolve: 'gatsby-plugin-firebase-v9.0-typescript',
       options: {
         credentials: {
           apiKey: '<YOUR_FIREBASE_API_KEY>',
@@ -74,6 +73,6 @@ export default Component
 
 For more usages, please refer to the [Firebase documentation](https://firebase.google.com/docs).
 
-### 📝 License
+### License
 
 MIT
