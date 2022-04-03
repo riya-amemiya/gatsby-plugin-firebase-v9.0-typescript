@@ -75,4 +75,4 @@ For more usages, please refer to the [Firebase documentation](https://firebase.g
 
 ### License
 
-MIT
+Unlicense
