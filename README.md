@@ -7,13 +7,13 @@ Gatsby add Firebase JS SDK 9
 use npm:
 
 ```bash
-npm install firebase gatsby-plugin-firebase-v9.0 --save
+npm install firebase gatsby-plugin-firebase-v9.0-typescript --save
 ```
 
 or use yarn:
 
 ```bash
-yarn add firebase gatsby-plugin-firebase-v9.0 -D
+yarn add firebase gatsby-plugin-firebase-v9.0-typescript -D
 ```
 
 ## Usage
