@@ -1,0 +1,31 @@
+{
+    "name": "gatsby-plugin-firebase-v9.0-typescript",
+    "version": "1.0.1",
+    "main": "./build/index.js",
+    "types": "./build/index.d.ts",
+    "repository": "https://github.com/riya81/gatsby-plugin-firebase-v9.0-typescript.git",
+    "author": "Riya81",
+    "license": "MIT",
+    "keywords": [
+        "firebase",
+        "plugin",
+        "gatsby",
+        "gatsby-plugin"
+    ],
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "firebase": "^9.6.10",
+        "prettier": "^2.4.1",
+        "typescript": "^4.6.3"
+    },
+    "peerDependencies": {
+        "firebase": ">=9.x"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "exclude": "/node_modules/"
+}

@@ -1,0 +1,40 @@
+{
+	"include": [
+		"src/**/*"
+	],
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"outDir": "build",
+		"target": "ES6",
+		"module": "CommonJS",
+		"jsx": "react",
+		"noEmit": false,
+		"removeComments": true,
+		"allowJs": false,
+		"strict": false,
+		"alwaysStrict": true,
+		"checkJs": false,
+		"downlevelIteration": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"importHelpers": false,
+		"incremental": true,
+		"strictBindCallApply": true,
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"strictNullChecks": true,
+		"noFallthroughCasesInSwitch": true,
+		"forceConsistentCasingInFileNames": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+		"moduleResolution": "node",
+		"lib": [
+			"es2020",
+			"dom"
+		]
+	}
+}
